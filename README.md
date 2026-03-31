@@ -1,6 +1,8 @@
-# @pipeworx/mcp-science
+# mcp-science
 
-MCP server for science data — NASA APOD, ISS location, and earthquake monitoring.
+Science MCP — free science data APIs
+
+Part of the [Pipeworx](https://pipeworx.io) open MCP gateway.
 
 ## Tools
 
@@ -25,7 +27,7 @@ Add to your MCP client config:
 }
 ```
 
-## CLI Usage
+Or use the CLI:
 
 ```bash
 npx pipeworx use science

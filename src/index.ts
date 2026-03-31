@@ -1,13 +1,3 @@
-/**
- * Science MCP — free science data APIs
- *
- * Tools:
- * - get_iss_location: current ISS position
- * - get_earthquakes: recent earthquakes (USGS)
- * - get_air_quality: air quality data (OpenAQ)
- * - get_apod: NASA Astronomy Picture of the Day
- */
-
 interface McpToolDefinition {
   name: string;
   description: string;
@@ -22,6 +12,17 @@ interface McpToolExport {
   tools: McpToolDefinition[];
   callTool: (name: string, args: Record<string, unknown>) => Promise<unknown>;
 }
+
+/**
+ * Science MCP — free science data APIs
+ *
+ * Tools:
+ * - get_iss_location: current ISS position
+ * - get_earthquakes: recent earthquakes (USGS)
+ * - get_air_quality: air quality data (OpenAQ)
+ * - get_apod: NASA Astronomy Picture of the Day
+ */
+
 
 const tools: McpToolExport['tools'] = [
   {
