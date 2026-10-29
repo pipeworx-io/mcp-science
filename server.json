@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/science",
   "title": "Science",
   "description": "Science MCP — free science data APIs",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/science",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-science",
