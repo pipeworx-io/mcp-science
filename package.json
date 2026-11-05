@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-science",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Science MCP — free science data APIs",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "science",
     "gatewaySlug": "science",
-    "sourceHash": "v1-bc360a65bc8edcbaf882f1bd5ed8dcba839fbaefabea1f77c53fb4ccb2e5eba7",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-89d954937ab40eb79d7c716ee89678712931963f2ef601d719d7d87fe1594ad4",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
